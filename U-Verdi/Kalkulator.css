@@ -1,0 +1,65 @@
+#kalkulatorBox {
+    width: 100%;
+    height: 40%;
+    padding: 20%;
+    margin: 0%;
+    outline: rgb(77, 77, 100);
+    background: rgb(77, 77, 100);
+}
+
+#txtBoxLeftDark {
+    outline: rgb(77, 77, 100);
+    background: rgb(77, 77, 100);
+    text-align: left;
+    color: white;
+    padding: 0%;
+    margin-left: 0%;
+}
+
+#dropdownDarkHeight {
+    width: 25%;
+    height: 2%;
+    background: rgb(125, 125, 150);
+    margin: 0;
+    padding: 0;
+}
+
+#dropdownDarkWidth {
+    width: 25%;
+    height: 2%;
+    background: rgb(125, 125, 150);
+    padding: 0%;
+    margin-left: 40%;
+}
+
+#dropdownDarkUOld {
+    width: 25%;
+    height: 2%;
+    background: rgb(125, 125, 150);
+    margin: 0;
+    padding: 0;
+}
+
+#dropdownDarkUNew {
+    width: 25%;
+    height: 2%;
+    background: rgb(125, 125, 150);
+    padding: 0%;
+    margin-left: 40%;
+}
+
+#dropdownDarkTemp {
+    width: 25%;
+    height: 2%;
+    background: rgb(125, 125, 150);
+    margin: 0;
+    padding: 0;
+}
+
+#dropdownDarkLocation {
+    width: 25%;
+    height: 2%;
+    background: rgb(125, 125, 150);
+    padding: 0%;
+    margin-left: 40%;
+}
