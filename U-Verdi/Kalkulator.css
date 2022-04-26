@@ -77,3 +77,8 @@
     padding: 0%;
     margin-left: 40%;
 }
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
