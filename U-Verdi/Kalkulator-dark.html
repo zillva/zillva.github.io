@@ -56,23 +56,14 @@
                     <div id="txtBoxRightDark">
                         Vindu bredde i cm
                     </div>
-                    <select name="Vindu Høyde" id="dropdownDarkHeight">
-                        <option>0.8</option>
-                        <option>1.2</option>
-                        <option>1.6</option>
-                        <option>2.4</option>
-                        <option>2.6</option>
-                        <option>2.8</option>
-                    </select>
-                    <select name="U-verdi" id="dropdownDarkWidth">
-                        <option>0.8</option>
-                        <option>1.2</option>
-                        <option>1.6</option>
-                        <option>2.4</option>
-                        <option>2.6</option>
-                        <option>2.8</option>
-                    </select>
+                    <form>
+                        <input type="text" id="writeDarkHeight" placeholder="Høyde i cm">
+                    </form>
+                    <form>
+                        <input type="text" id="writeDarkWidth" placeholder="Bredde i cm">
+                    </form>
                     <select name="Gammel U-verdi" id="dropdownDarkUOld">
+                        <option>U-verdi på gammelt vindu</option>
                         <option>0.8</option>
                         <option>1.2</option>
                         <option>1.6</option>
@@ -81,6 +72,7 @@
                         <option>2.8</option>
                     </select>
                     <select name="Ny U-verdi" id="dropdownDarkUNew">
+                        <option>U-verdi på nytt vindu</option>
                         <option>0.8</option>
                         <option>1.2</option>
                         <option>1.6</option>
@@ -88,15 +80,11 @@
                         <option>2.6</option>
                         <option>2.8</option>
                     </select>
-                    <select name="U-verdi" id="dropdownDarkTemp">
-                        <option>0.8</option>
-                        <option>1.2</option>
-                        <option>1.6</option>
-                        <option>2.4</option>
-                        <option>2.6</option>
-                        <option>2.8</option>
-                    </select>
+                    <form>
+                        <input type="text" id="writeDarkTemp" placeholder="Ønsket temperatur inne">
+                    </form>
                     <select name="U-verdi" id="dropdownDarkLocation">
+                        <option>Hvor i landet bor du?</option>
                         <option>Nord-Norge</option>
                         <option>Midt-Norge</option>
                         <option>Vestlandet</option>

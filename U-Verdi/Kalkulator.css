@@ -1,43 +1,89 @@
-#txtW {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::placeholder {
     color: white;
-    margin: 5px;
-    padding: 5px;
+    opacity: 0.5;
 }
 
-#cntrtxtW {
-    color: rgb(255, 255, 255);
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
+#kalkulatorBox {
+    height: 100%;
+    width: 98%;
+    margin-top: 20%;
+    background-color: rgb(77, 77, 100);
+    margin-left: 1%;
+    position: relative;
 }
 
-#bigtxtW {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin: 10px;
-    font-size: 50;
+#txtBoxLeftDark {
+    width: 25%;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 10%;
+    color: white;
 }
 
-#txt {
-    color: black;
-    margin: 5px;
-    padding: 5px;
+#txtBoxRightDark {
+    width: 25%;
+    text-align: left;
+    margin-top: -3%;
+    margin-left: 65%;
+    color: white;
 }
 
-#cntrtxt {
-    color: black;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
+#writeDarkHeight {
+    height: 1%;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: rgb(125, 125, 150);
+    color: white;
 }
 
-#bigtxt {
-    color: black;
-    text-align: center;
-    margin: 10px;
-    font-size: 50;
+#writeDarkWidth {
+    height: 1%;
+    width: 25%;
+    margin-top: -6.8%;
+    margin-left: 65%;
+    background-color: rgb(125, 125, 150);
+    color: white;
 }
 
-background: rgb(155, 155, 155); (light)
+#dropdownDarkUOld {
+    height: 1%;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: rgb(125, 125, 150);
+    color: white;
+}
 
-background: rgb(125, 125, 150); (dark)
+#dropdownDarkUNew {
+    height: 1%;
+    width: 25%;
+    margin-top: -6.8%;
+    margin-left: 65%;
+    background-color: rgb(125, 125, 150);
+    color: white;
+}
+
+#writeDarkTemp {
+    height: 1%;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: rgb(125, 125, 150);
+    color: white;
+}
+
+#dropdownDarkLocation {
+    height: 1%;
+    width: 25%;
+    margin-top: -6.8%;
+    margin-left: 65%;
+    background-color: rgb(125, 125, 150);
+    color: white;
+}
