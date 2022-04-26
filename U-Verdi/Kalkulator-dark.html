@@ -6,6 +6,7 @@
     <title>U-verdi kalkulator</title>
     <link rel="stylesheet" href="Nettside-css.css">
     <link rel="stylesheet" href="Kalkulator.css">
+    <script src="Kalkulator.js"></script>
 </head>
 <body>
     <style>
@@ -95,12 +96,30 @@
                     </form>
                     <select name="U-verdi" id="dropdownDarkLocation">
                         <option>Hvor i landet bor du?</option>
-                        <option>Nord-Norge</option>
-                        <option>Midt-Norge</option>
-                        <option>Vestlandet</option>
-                        <option>Østlandet</option>
-                        <option>Sørlandet</option>
+                        <option>Bergen</option>
+                        <option>Bodø</option>
+                        <option>Fagernes</option>
+                        <option>Hamar</option>
+                        <option>Hammerfest</option>
+                        <option>Hovden</option>
+                        <option>Kristiansand</option>
+                        <option>Lillehammer</option>
+                        <option>Namsos</option>
+                        <option>Narvik</option>
+                        <option>Oslo</option>
+                        <option>Stavanger</option>
+                        <option>Tromsø</option>
+                        <option>Trondheim</option>
+                        <option>Ålesund</option>
                     </select>
+                    <div>
+                        <button type="button" onclick="kalkulatorDark()" id="kalkDarkButton">
+                            Regn ut
+                        </button>
+                        <span id="kalkDarkResultBox">
+    
+                        </span>
+                    </div>
                 </div>
             </p>
         </div>

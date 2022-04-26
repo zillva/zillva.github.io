@@ -165,3 +165,28 @@
     padding: 0%;
     margin-left: 40%;
 }
+
+#kalkDarkResultBox {
+    width: 90%;
+    height: 4%;
+    background: rgb(125, 125, 150);
+    border: solid 2px black;
+    margin-top: 4%;
+}
+
+#kalkLightResultBox {
+
+}
+
+#kalkDarkButton {
+    width: 10%;
+    height: 4%;
+    border: solid 2px black;
+    background: rgb(125, 125, 150);
+    margin-top: 4%;
+    float: left;
+}
+
+#kalkLightButton {
+    
+}
