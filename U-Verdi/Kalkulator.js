@@ -1,9 +1,5 @@
-var uVerdiOld;
-var uVerdiOld = 1;
+function kalkulator(){
+    Height = document.getElementById("writeDarkHeight").value;
+}
 
-var uVerdiNew;
-var uVerdiNew = 4;
-
-var strømPris;
-var strømPris = 40.8
-
+console.log()
