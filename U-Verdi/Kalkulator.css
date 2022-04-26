@@ -12,19 +12,31 @@
     background: rgb(77, 77, 100);
     text-align: left;
     color: white;
-    padding: 0%;
+    padding: 2%;
     margin-left: 0%;
+    float: left;
 }
 
-#dropdownDarkHeight {
+#txtBoxRightDark {
+    outline: rgb(77, 77, 100);
+    background: rgb(77, 77, 100);
+    text-align: left;
+    color: white;
+    padding: 2%;
+    margin-left: 65%;
+}
+
+
+#writeDarkHeight {
     width: 25%;
     height: 2%;
     background: rgb(125, 125, 150);
     margin: 0;
     padding: 0;
+    float: left;
 }
 
-#dropdownDarkWidth {
+#writeDarkWidth {
     width: 25%;
     height: 2%;
     background: rgb(125, 125, 150);
@@ -38,6 +50,7 @@
     background: rgb(125, 125, 150);
     margin: 0;
     padding: 0;
+    float: left;
 }
 
 #dropdownDarkUNew {
@@ -48,12 +61,13 @@
     margin-left: 40%;
 }
 
-#dropdownDarkTemp {
+#writeDarkTemp {
     width: 25%;
     height: 2%;
     background: rgb(125, 125, 150);
     margin: 0;
     padding: 0;
+    float: left;
 }
 
 #dropdownDarkLocation {
