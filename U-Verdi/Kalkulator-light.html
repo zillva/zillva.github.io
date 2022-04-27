@@ -50,6 +50,8 @@
         </div>
         <div id="txtbox2">
             <p id="txtW">
+                <p style="font-size: 40px; text-align: center;">Kalkulator</p>
+                <p style="text-align: center;">Regn ut hvor mye du kan spare per vindu i året</p>
                 <div id="kalkulatorLightBox">
                     <div id="txtBoxLeftLight">
                         Vindu høyde i cm
@@ -96,12 +98,30 @@
                     </form>
                     <select name="U-verdi" id="dropdownLightLocation">
                         <option>Hvor i landet bor du?</option>
-                        <option>Nord-Norge</option>
-                        <option>Midt-Norge</option>
-                        <option>Vestlandet</option>
-                        <option>Østlandet</option>
-                        <option>Sørlandet</option>
+                        <option>Bergen</option>
+                        <option>Bodø</option>
+                        <option>Fagernes</option>
+                        <option>Hamar</option>
+                        <option>Hammerfest</option>
+                        <option>Hovden</option>
+                        <option>Kristiansand</option>
+                        <option>Lillehammer</option>
+                        <option>Namsos</option>
+                        <option>Narvik</option>
+                        <option>Oslo</option>
+                        <option>Stavanger</option>
+                        <option>Tromsø</option>
+                        <option>Trondheim</option>
+                        <option>Ålesund</option>
                     </select>
+                    <div>
+                        <button type="button" onclick="kalkulatorLight()" id="kalkLightButton">
+                            Regn ut
+                        </button>
+                        <span id="kalkLightResultBox">
+                            Resultat her
+                        </span>
+                    </div>
                 </div>
             </p>
         </div>
