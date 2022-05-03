@@ -1,13 +1,18 @@
+//Lager en funksjon som kan bli kalt opp senere
 function kalkulatorDark(){
+    //Henter verdier
     Height = document.getElementById("writeDarkHeight").value;
     Width = document.getElementById("writeDarkWidth").value;
 
+    //Deler verdi på 100 for å få fra cm til meter
     Height = Height / 100;
     Width = Width / 100;
 
+    //Henter flere verdier
     uVerdiOld = document.getElementById("dropdownDarkUOld").value;
     uverdiNew = document.getElementById("dropdownDarkUNew").value;
 
+    //Henter verdier basert på hva som er fylt inn
     if(document.getElementById("dropdownDarkLocation").value == "Bergen") {
         tempUte = 3.4
     }
@@ -101,11 +106,14 @@ function kalkulatorDark(){
         prisStrøm = 41.424
     };
 
+    //Regner ut med formel for å finne ut hvor mye du sparer
     saveMoney = ((Height * Width) * (uverdiNew - uVerdiOld) * (tempInne - tempUte)) / 1000 * 182 * prisStrøm;
 
+    //Sender verdi tilbake til siden
     document.getElementById("kalkDarkResultBox").innerHTML = saveMoney;
 }
 
+//Samme som oppe, bare for light mode i stedenfor
 function kalkulatorLight(){
     Height = document.getElementById("writeLightHeight").value;
     Width = document.getElementById("writeLightWidth").value;
